@@ -1,11 +1,11 @@
 <!--- 
 	Author:Animesh Dutta
-	File Description:This file is a creating object from Customer Component
+	File Description:This file is used to create an object from Customers component and accessing the "Welcome" function
 	File Modified on:Dec 14,2017
  --->
 <b>Creating object</b>
 <cfset CustomerObj=createObject("component","components.Customers")>
-<cfset Welcomefunc=CustomerObj.WELCOME("Animesh Dutta")>
+<cfset Welcomefunc=CustomerObj.Welcome("Animesh Dutta")>
 <!--- 
 Debugging the output
  --->
