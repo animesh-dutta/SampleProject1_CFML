@@ -8,6 +8,7 @@
 	sessionmanagement="true"
 	clientManagement="true"
 	setclientcookies="true"
+	setDomainCookies="false"
 	applicationtimeout="#createTimeSpan(0,1,0,0)#"
 	sessiontimeout="#createTimeSpan(0,0,20,0)#">
 	
