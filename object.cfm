@@ -10,4 +10,4 @@
 Debugging the output
  --->
 <cfdump var="#CustomerObj#" label="CustomerObj">
-<cfdump var="#Welcomefunc#" label="CustomerObj">
+<cfdump var="#Welcomefunc#" label="Welcomefunc">
