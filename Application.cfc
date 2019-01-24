@@ -3,6 +3,7 @@
 	File Description:Application.cfc which deals with application level settings
 	File Modified on:Dec 14,2017
  --->
+ 
 <cfcomponent output="false">
 	<cfset this.name = "Sample Application" />
 	<cfset this.loginStorage = "session" />
