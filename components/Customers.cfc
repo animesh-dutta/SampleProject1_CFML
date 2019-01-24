@@ -7,6 +7,6 @@
 <cfcomponent output="true" persistent="true">
 	<cffunction name="Welcome" access="public" returntype="any">
 		<cfargument name="username" required="false">
-		<cfreturn "Hello-#username#">
+		<cfreturn "Hello-#arguments.username#">
 	</cffunction>
 </cfcomponent>
