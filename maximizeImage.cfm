@@ -3,6 +3,7 @@
 	File Description:This file is for maximizing the image
 	File Modified on:Dec 14,2014
  --->
+ 
 <cfset AbsoluteProjectPath=GetDirectoryFromPath(GetCurrentTemplatePath())/>
 <cfoutput>
 <cfset newImage=Imagenew("#AbsoluteProjectPath#uploadedfiles\AnimeshDutta.JPG")>
