@@ -1,6 +1,7 @@
-This page will handle errors<br/>
+This page will handle errors:
+
 <cfset errorStruct={}>
 <cfset errorStruct.diagnostics=error.diagnostics>
 <cfset errorStruct.browser=error.browser>
-<cfdump var="#errorStruct#">
+<cfdump var="#errorStruct#" label="errorStruct">
 
