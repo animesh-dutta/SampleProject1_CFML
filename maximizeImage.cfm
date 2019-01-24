@@ -1,7 +1,7 @@
 <!--- 
 	Author:Animesh Dutta
 	File Description:This file is for maximizing the image
-	File Modified on:Dec 14,2014
+	File Modified on:Dec 14,2017
  --->
  
 <cfset AbsoluteProjectPath=GetDirectoryFromPath(GetCurrentTemplatePath())/>
