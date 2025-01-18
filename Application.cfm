@@ -3,7 +3,6 @@
 	File Description:Application.cfm which deals with application level settings where Application.cfc does not work
 	File Modified on:Dec 14,2017
  --->
-
 <cfapplication 
 	name="cfapplication_AnimeshDutta"
 	sessionmanagement="true"
