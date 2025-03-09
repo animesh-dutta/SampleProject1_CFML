@@ -1,7 +1,6 @@
 <!--- 
-	Author:Animesh Dutta
+	Author:Animesh Dutta (Ananya Birla) 
 	File Description:This file is for maximizing the image
-	File Modified on:Dec 14,2017
  --->
 
 <cfset AbsoluteProjectPath=GetDirectoryFromPath(GetCurrentTemplatePath())/>
