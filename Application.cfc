@@ -1,7 +1,6 @@
 <!--- 
-	Author:Animesh Dutta
+	Author:Animesh Dutta (Ananya Birla) 
 	File Description:Application.cfc which deals with application level settings
-	File Modified on:Dec 14,2017
  --->
 
 <cfcomponent output="false">
