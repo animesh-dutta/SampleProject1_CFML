@@ -1,7 +1,4 @@
-
-<!---   
-Author:Animesh Dutta (Ananya Birla) 
-index.cfm    --->               
+<!---   Author:Animesh Dutta (Ananya Birla) --->               
 <a href="cfimage.cfm" target="_blank"> Image Management </a>
 <a href="fileManagement.cfm" target="_blank"> File Management </a>
 <a href="cfchart.cfm" target="_blank"> Chart </a>
