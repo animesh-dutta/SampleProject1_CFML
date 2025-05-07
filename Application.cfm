@@ -1,7 +1,7 @@
 <!--- 
 	Author:Animesh Dutta (Ananya Birla) 
 	File Description:Application.cfm which deals with application level settings where Application.cfc does not work
- ---> 
+ --->  
 <cfapplication 
 	name="cfapplication_AnimeshDutta"
 	sessionmanagement="true"
@@ -15,7 +15,8 @@
 <cferror template="error.cfm" type="exception">
 
 <!--- session --->
- <cflock scope="Sessions" timeout="20" type="exclusive">
+<!---cflock Scope:Application|Server|Session|Request--->
+ <cflock scope="Session" timeout="20" type="exclusive">
 	<cfif not structKeyexists(session,"pageHits")>
 		<cfset sessions.pageHits=1>
 	<cfelse>
