@@ -7,4 +7,4 @@
 		<cfargument name="username" required="false">
 		<cfreturn "Hello-#arguments.username#">
 	</cffunction>
-</cfcomponent>
+</cfcomponent> 
