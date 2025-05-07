@@ -13,13 +13,17 @@
 	<cfset this.sessionTimeOut = CreateTimeSpan(0,1,0,0) />
 	<cfset this.applicationTimeOut = CreateTimeSpan(1,0,0,0) />
 	<cffunction name="onApplicationStart" >
-		<cfset application.Loc="Bangalore">
+		<cfset application.Loc="Mumbai">
 	</cffunction>
 	<cffunction name="onSessionStart" >
 		<cfset session.defaultUser="admin">
 	</cffunction>
 	<cffunction name="onRequestStart" >
 		
+	</cffunction>
+        <cffunction name="onRequest" returnType="void">
+	    <cfargument name="targetPage" type="String" required=true/>
+	    <cfinclude template="#Arguments.targetPage#">
 	</cffunction>
 	<cffunction name="onRequestEnd" >
 	
