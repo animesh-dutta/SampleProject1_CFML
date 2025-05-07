@@ -1,4 +1,4 @@
-<!--- Author:Animesh Dutta (Ananya Birla)  --->
+<!--- Author:Animesh Dutta (Ananya Birla)  ---> 
 This page will handle errors:
 
 <cfset errorStruct={}>
