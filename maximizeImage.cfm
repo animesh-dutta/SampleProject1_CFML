@@ -11,3 +11,4 @@
 <img src="\uploadedfiles\AnimeshDuttaMaximize.JPG">
 <br/><a href="cfimage.cfm">Go Back</a>
 </cfoutput>
+ 
