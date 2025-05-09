@@ -2,7 +2,7 @@
 	Author:Animesh Dutta (Ananya Birla) 
 	File Description:This file is for maximizing the image
  --->
-
+ 
 <cfset AbsoluteProjectPath=GetDirectoryFromPath(GetCurrentTemplatePath())/>
 <cfoutput>
 <cfset newImage=Imagenew("#AbsoluteProjectPath#uploadedfiles\AnimeshDutta.JPG")>
