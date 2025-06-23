@@ -2,7 +2,7 @@
 	Author:Animesh Dutta (Ananya Birla) 
 	File Description:Application.cfc which deals with application level settings
  --->
-         
+          
 <cfcomponent output="false">
 	<cfset this.name = "Sample Application" />
 	<cfset this.loginStorage = "session" />
