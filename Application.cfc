@@ -1,4 +1,4 @@
-<!--- 
+ <!--- 
 	Author:Animesh Dutta (Ananya Birla) 
 	File Description:Application.cfc which deals with application level settings
  --->
