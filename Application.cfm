@@ -1,7 +1,7 @@
 <!--- 
 	Author:Animesh Dutta (Ananya Birla) 
 	File Description:Application.cfm which deals with application level settings where Application.cfc does not work
- --->            
+ --->             
 <cfapplication 
 	name="cfapplication_AnimeshDutta"
 	sessionmanagement="true"
